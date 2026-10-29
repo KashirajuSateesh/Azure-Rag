@@ -1,0 +1,27 @@
+{
+  "full_text": "NORTHWIND SUPPLY CO.\nINVOICE\n742 Evergreen Terrace, Springfield, IL 62704\nPhone: (217) 555-0142 Email: billing@northwind-supply.example\nInvoice No: INV-2026-0457\nInvoice Date: October 12, 2026\nDue Date: November 11, 2026\nPO Number: PO-88213\nBill To:\nContoso Analytics LLC\nAttn: Accounts Payable\n1200 Lakeshore Drive, Suite 300\nChicago, IL 60611\nItem Description Qty Unit Price Amount\nA-100 Ergonomic office chair 4 $189.00 $756.00\nB-220 Standing desk, 60 inch 2 $425.50 $851.00\nC-310 27 inch LED monitor 6 $219.99 $1,319.94\nD-045 Wireless keyboard and mouse 10 $39.95 $399.50\nE-900 On-site installation (hours) 5 $65.00 $325.00\nSubtotal: $3,651.44\nSales Tax (6.25%): $228.22\nShipping: $45.00\nTOTAL DUE: $3,924.66\nPayment Terms\nNet 30. Please make checks payable to Northwind Supply Co.\nBank transfer: Account 004512987, Routing 071000013.\nLate payments are subject to a 1.5% monthly finance charge.\nThank you for your business!",
+  "critical_fields": {
+    "Invoice No": "INV-2026-0457",
+    "Invoice Date": "October 12, 2026",
+    "Due Date": "November 11, 2026",
+    "PO Number": "PO-88213",
+    "Phone": "(217) 555-0142",
+    "Email": "billing@northwind-supply.example",
+    "Subtotal": "$3,651.44",
+    "Sales Tax": "$228.22",
+    "Shipping": "$45.00",
+    "Total Due": "$3,924.66",
+    "Account": "004512987",
+    "Routing": "071000013",
+    "Line C-310 amount": "$1,319.94",
+    "Line D-045 unit price": "$39.95"
+  },
+  "table": [
+    ["Item", "Description", "Qty", "Unit Price", "Amount"],
+    ["A-100", "Ergonomic office chair", "4", "$189.00", "$756.00"],
+    ["B-220", "Standing desk, 60 inch", "2", "$425.50", "$851.00"],
+    ["C-310", "27 inch LED monitor", "6", "$219.99", "$1,319.94"],
+    ["D-045", "Wireless keyboard and mouse", "10", "$39.95", "$399.50"],
+    ["E-900", "On-site installation (hours)", "5", "$65.00", "$325.00"]
+  ]
+}
